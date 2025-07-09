@@ -1,0 +1,23 @@
+/* ds5-galaxy.css */
+
+.controller {
+  background: url('https://your-cdn.com/path-to/galaxy-bg.png') center/cover no-repeat;
+}
+
+.button, .dpad, .stick {
+  fill: rgba(255, 255, 255, 0.8); /* translucent white */
+  filter: drop-shadow(0 0 5px rgba(180, 180, 255, 0.7));
+}
+
+.touchpad {
+  background: url('https://your-cdn.com/path-to/starfield-overlay.png') center/contain no-repeat;
+}
+
+.led {
+  background-color: rgba(120, 100, 255, 0.7);
+  box-shadow: 0 0 20px rgba(120, 100, 255, 0.7);
+}
+
+.trigger {
+  fill: linear-gradient(90deg, #5a4ecb, #8e72ff);
+}
